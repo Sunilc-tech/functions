@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //task1
+
+        function value(num){
+            if(num==5){
+                return "valid";
+            }else{
+                return "invalid"
+            }
+        }
+        num=prompt("enter a num");
+        alert(value(num));
+        alert(value(num==5));
+
+        //task2
+
+        function value(a,b){
+            if (a > b){
+                return "a is greater";
+            }
+            else{
+            return "b is greater";
+        }
+
+        }
+        x=value(5,10);
+        alert(x);
+        y=value(10,5);
+        alert(y);
+        
+        //task3
+
+
+        function value(a,b,c){
+            if(a>b && a>c){
+                return a;
+            }else if(b>a && b>c){
+                return b;
+            }else{
+                return c;
+            }
+        }
+        x=value(4,6,7);
+        alert(x);
+        y=value(10,50,2);
+        alert(y);
+
+        //task4
+        function greatest(a, b, c) {
+            if (a > b && a > c) {
+                return a;
+            } 
+            else if (b > a && b > c) 
+            {
+                return b;
+            }
+            else {
+                return c;
+            }
+        }
+        x = greatest(24, 16, 12);
+        console.log(x);
+        
+
+
+        
+    </script>
+    
+</body>
+</html>
